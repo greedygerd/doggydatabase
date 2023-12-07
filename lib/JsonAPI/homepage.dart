@@ -81,6 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     if (postId > 0) {
                       fetchPosts(postId);
                     }
+                    postIdController.clear();
                   },
                   child: const Text("Push me if you understand Latin"),
                 ),
