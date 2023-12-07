@@ -94,13 +94,13 @@ class _MyHomePageState extends State<MyHomePage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const Text(
-                  "Post Title:",
+                  "Title:",
                   style: TextStyle(fontWeight: FontWeight.bold),
                 ),
                 Text(postTitle),
                 const SizedBox(height: 8),
                 const Text(
-                  "Post Body:",
+                  "Body:",
                   style: TextStyle(fontWeight: FontWeight.bold),
                 ),
                 Text(postBody),
