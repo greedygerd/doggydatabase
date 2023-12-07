@@ -11,7 +11,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   List<User>? users;
-  List<Post>? posts;
+  List<Postarticle>? posts;
   TextEditingController postIdController = TextEditingController();
   String postTitle = "";
   String postBody = "";
@@ -25,8 +25,6 @@ class _MyHomePageState extends State<MyHomePage> {
       setState(() {
         users = jsonList.map((json) => User.fromJson(json)).toList();
       });
-    } else {
-      throw Exception("Failed to load users");
     }
   }
 
