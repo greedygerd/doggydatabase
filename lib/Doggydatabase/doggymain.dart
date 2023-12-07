@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sqlite/dog.dart';
-import 'package:sqlite/dogdatabase.dart';
+import 'package:sqlite/Doggydatabase/dog.dart';
+import 'package:sqlite/Doggydatabase/dogdatabase.dart';
 import 'package:animated_background/animated_background.dart';
 
 void main() {

@@ -1,7 +1,7 @@
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 import 'dart:async';
-import 'package:sqlite/dog.dart';
+import 'package:sqlite/Doggydatabase/dog.dart';
 
 class DogDatabase {
   Future<Database> openDogDatabase() async {
